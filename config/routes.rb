@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 
   # Places-related endpoints
   get '/places', to: 'manage_places#getPlaces'
-  get '/places/:place_id' to 'manage_places#get_Places_By_Id'
+  get '/places/:place_id', to: 'manage_places#get_Places_By_Id'
 
   # users-related end
   post '/users/', to: 'manage_users#createUser'

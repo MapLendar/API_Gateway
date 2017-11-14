@@ -1,7 +1,8 @@
 version: '2'
 services:
-  api_gateway:
-    build: .
+  sa-api-gateway:
+    #build: .
+    image:   mballeng91/sa-api-gateway
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
     ports:
       - "6000:3000"
