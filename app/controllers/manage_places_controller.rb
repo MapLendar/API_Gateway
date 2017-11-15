@@ -1,5 +1,5 @@
 class ManagePlacesController < ApplicationController
-    USERS_MS = "http://192.168.99.101:3000/"
+    USERS_MS = "http://192.168.99.101:3001/"
     PLACES_MS = "http://192.168.99.101:3006/"
 
     def getPlaces
