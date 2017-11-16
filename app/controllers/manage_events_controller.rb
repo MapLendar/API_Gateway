@@ -1,9 +1,9 @@
 class ManageEventsController < ApplicationController
-    USERS_MS = "http://192.168.99.101:3001/"
-    EVENTS_MS = "http://192.168.99.101:3006/"
-    INVITES_MS = "http://192.168.99.101:3005/"
-    ATTENDANCE_MS = "http://192.168.99.101:3004/"
-    ATTENDANCE_MS2 = "http://192.168.99.101:3004"
+    USERS_MS = "http://users-ms.users-ms:3001/"
+    EVENTS_MS = "http://ms-events-and-places.ms-events-and-places:3006/"
+    INVITES_MS = "http://ms-invites.ms-invites:3005/"
+    ATTENDANCE_MS = "http://ms-attendance.ms-attendance:3004/"
+    ATTENDANCE_MS2 = "http://ms-attendance.ms-attendance:3004"
 
     def createEvent
         if request.headers.include? "Authorization"

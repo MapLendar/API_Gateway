@@ -1,5 +1,5 @@
 class AuthenticateController < ApplicationController
-  USERS_MS = "http://192.168.99.101:3001/"
+  USERS_MS = "http://users-ms.users-ms:3001/"
 
   def authUser()
     options = {

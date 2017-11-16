@@ -1,6 +1,6 @@
 version: '2'
 services:
-  sa-api-gateway:
+  api-gateway:
     image: maplendar/api_gateway
     command: bash -c "rm -f tmp/pids/server.pid && sleep 40 && bundle exec rails s -p 3000 -b '0.0.0.0'"
     ports:

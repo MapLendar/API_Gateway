@@ -1,6 +1,6 @@
 class ManagePlacesController < ApplicationController
-    USERS_MS = "http://192.168.99.101:3001/"
-    PLACES_MS = "http://192.168.99.101:3006/"
+    USERS_MS = "http://users-ms.users-ms:3001/"
+    PLACES_MS = "http://ms-events-and-places.ms-events-and-places:3006/"
 
     def getPlaces
         result = HTTParty.get(PLACES_MS + "places")
