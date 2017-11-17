@@ -1,5 +1,5 @@
 class ManageUsersController < ApplicationController
-    USERS_MS = "http://ms-users.ms-users:3000/"
+    USERS_MS = "http://ms-users.ms-users:3001/"
     def createUser
         options = {
             :body => {
