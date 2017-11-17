@@ -1,5 +1,5 @@
 class ManageEventsController < ApplicationController
-    USERS_MS = "http://users-ms.users-ms:3001/"
+    USERS_MS = "http://ms-users.ms-users:3001/"
     EVENTS_MS = "http://ms-events-and-places.ms-events-and-places:3006/"
     INVITES_MS = "http://ms-invites.ms-invites:3005/"
     ATTENDANCE_MS = "http://ms-attendance.ms-attendance:3004/"

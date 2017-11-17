@@ -1,5 +1,5 @@
 class ManagePlacesController < ApplicationController
-    USERS_MS = "http://users-ms.users-ms:3001/"
+    USERS_MS = "http://ms-users.ms-users:3001/"
     PLACES_MS = "http://ms-events-and-places.ms-events-and-places:3006/"
 
     def getPlaces
